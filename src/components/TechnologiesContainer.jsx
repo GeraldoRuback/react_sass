@@ -10,12 +10,16 @@ import {
   DiSass
 } from 'react-icons/di'
 
+import { BiLogoTypescript } from 'react-icons/bi'
+import { RiJavascriptFill } from 'react-icons/ri'
+
 import '../styles/components/technologiescontainer.sass'
 
 const technologies = [
   { id: "react", name: "React", icon: <DiReact />},
   { id: "sass", name: "Sass", icon: <DiSass />},
-  { id: "js", name: "JavaScript", icon: <DiJsBadge />},
+  { id: "ts", name: "TypeScript", icon: <BiLogoTypescript />},
+  { id: "js", name: "JavaScript", icon: <RiJavascriptFill />},
   { id: "html", name: "HTML5", icon: <DiHtml5 />},
   { id: "css", name: "CSS3", icon: <DiCss3 />},
   { id: "node", name: "Node.js", icon: <DiNodejsSmall />},
